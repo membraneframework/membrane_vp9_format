@@ -2,11 +2,11 @@ defmodule Membrane.Template.Mixfile do
   use Mix.Project
 
   @version "0.1.0"
-  @github_url "https://github.com/membraneframework/membrane_template_plugin"
+  @github_url "https://github.com/membraneframework/membrane_vp9_format"
 
   def project do
     [
-      app: :membrane_template_plugin,
+      app: :membrane_vp9_format,
       version: @version,
       elixir: "~> 1.10",
       elixirc_paths: elixirc_paths(Mix.env()),
@@ -14,11 +14,11 @@ defmodule Membrane.Template.Mixfile do
       deps: deps(),
 
       # hex
-      description: "Template Plugin for Membrane Multimedia Framework",
+      description: "Membrane Multimedia Framework (VP9 Format Description)",
       package: package(),
 
       # docs
-      name: "Membrane Plugin: Template",
+      name: "Membrane: VP9 Format",
       source_url: @github_url,
       homepage_url: "https://membraneframework.org",
       docs: docs()
