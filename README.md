@@ -1,15 +1,17 @@
-# Membrane Multimedia Framework: VP9 format
+# Membrane VP9 Format
 
 [![Hex.pm](https://img.shields.io/hexpm/v/membrane_vp9_format.svg)](https://hex.pm/packages/membrane_vp9_format)
-[![CircleCI](https://circleci.com/gh/membraneframework/membrane_template_plugin.svg?style=svg)](https://circleci.com/gh/membraneframework/membrane_template_plugin)
+[![API Docs](https://img.shields.io/badge/api-docs-yellow.svg?style=flat)](https://hexdocs.pm/membrane_vp9_format)
+[![CircleCI](https://circleci.com/gh/membraneframework/membrane_vp9_format.svg?style=svg)](https://circleci.com/gh/membraneframework/membrane_vp9_format)
 
 Membrane format describing VP9 video stream.
 
 It is part of [Membrane Multimedia Framework](https://membraneframework.org).
 
 ## Installation
-
-The package can be installed by adding `membrane_vp9_format` to your list of dependencies in `mix.exs`:
+Unless you're developing a Membrane Element it's unlikely you need to use this package directly in your app, as normally it is going to be fetched as a dependency of any element that operates on VP8 encoded video.
+ 
+However, if you are developing an Element or need to add it due to any other reason, the package can be installed by adding membrane_vp8_format to your list of dependencies in mix.exs:
 
 ```elixir
 def deps do
@@ -18,10 +20,6 @@ def deps do
   ]
 end
 ```
-
-## Usage
-
-TODO
 
 ## Copyright and License
 

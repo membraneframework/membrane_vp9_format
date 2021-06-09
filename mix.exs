@@ -14,11 +14,11 @@ defmodule Membrane.VP9.Mixfile do
       deps: deps(),
 
       # hex
-      description: "Membrane Multimedia Framework (VP9 Format Description)",
+      description: "Membrane VP9 Format Description",
       package: package(),
 
       # docs
-      name: "Membrane: VP9 Format",
+      name: "Membrane VP9 Format",
       source_url: @github_url,
       homepage_url: "https://membraneframework.org",
       docs: docs()
@@ -38,7 +38,7 @@ defmodule Membrane.VP9.Mixfile do
     [
       {:membrane_core, "~> 0.6.0"},
       {:ex_doc, "~> 0.22", only: :dev, runtime: false},
-      {:dialyxir, "~> 1.0.0", only: :dev, runtime: false},
+      {:dialyxir, "~> 1.1.0", only: :dev, runtime: false},
       {:credo, "~> 1.4", only: :dev, runtime: false}
     ]
   end
@@ -59,7 +59,7 @@ defmodule Membrane.VP9.Mixfile do
       main: "readme",
       extras: ["README.md", "LICENSE"],
       source_ref: "v#{@version}",
-      nest_modules_by_prefix: [Membrane.Template]
+      nest_modules_by_prefix: [Membrane.VP9]
     ]
   end
 end
