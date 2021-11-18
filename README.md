@@ -16,7 +16,7 @@ However, if you are developing an Element or need to add it due to any other rea
 ```elixir
 def deps do
   [
-    {:membrane_vp9_format, "~> 0.1.0"}
+    {:membrane_vp9_format, "~> 0.3.0"}
   ]
 end
 ```
