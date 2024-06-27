@@ -1,6 +1,6 @@
 defmodule Membrane.VP9 do
   @moduledoc """
-  This module provides a format for a VP8 encoded video stream.
+  This module provides a format for a VP9 encoded video stream.
   """
 
   @typedoc """
@@ -20,7 +20,7 @@ defmodule Membrane.VP9 do
   @type height :: pos_integer()
 
   @typedoc """
-  Format definition for a VP8 video stream.
+  Format definition for a VP9 video stream.
   """
   @type t :: %__MODULE__{
           width: width(),
